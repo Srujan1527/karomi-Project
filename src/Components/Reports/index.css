@@ -1,0 +1,82 @@
+.full-dashboard-container2 {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.bottom-report-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: antiquewhite;
+  overflow: scroll;
+}
+
+.total-files-container {
+  display: flex;
+  justify-content: center;
+}
+
+.file-item-container {
+  display: flex;
+  background-color: #2176ed;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.file-item-container1 {
+  display: flex;
+  background-color: #9b2fb6;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.file-numbers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.files-heading {
+  color: white;
+}
+
+.files-number {
+  color: white;
+  font-weight: bold;
+}
+
+.pie-charts-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pie-item-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px;
+  width: 40%;
+}
+.pie-heading-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.pie-heading {
+  font-size: 15px;
+}
+
+.pie-containers {
+  display: flex;
+}
+
+.pie {
+  margin: 20px;
+}

@@ -1,0 +1,139 @@
+.searchs-container {
+  display: flex;
+}
+
+.bottom-search-container {
+  display: flex;
+  border: 1px solid #c2c0bd;
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.search-container1 {
+  display: flex;
+  align-items: center;
+}
+.search-input-container1 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #dd9905;
+
+  padding: 5px;
+  margin: 5px;
+}
+
+.search1 {
+  border: 0px;
+}
+
+.each-filter-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c2c0bd;
+}
+
+.filter-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.filter-header {
+  font-size: 12px;
+  color: #57534d;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.label {
+  font-size: 12px;
+}
+
+.item-radio {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.more-tags-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.filter-header1 {
+  font-size: 12px;
+  color: #57534d;
+  margin-right: 10px;
+}
+
+.uploads-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.each-upload-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #57534d;
+}
+
+.upload-head {
+  font-size: 12px;
+}
+
+.upload-head-container {
+  display: flex;
+  justify-content: center;
+}
+.bottom-upload-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cfcbc4;
+  height:60px;
+}
+
+.upload-test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height:60px;
+}
+.upload-head1 {
+  font-size: 12px;
+  background-color: black;
+  color: white;
+}
+.upload-header {
+  font-size: 12px;
+  color: white;
+  padding:5px
+}
+
+.upload-head2 {
+  font-size: 12px;
+  color: rgb(13, 46, 228);
+}
+
+.uploads-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
